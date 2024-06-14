@@ -779,6 +779,35 @@ ol {
 .choose__item p {
 	margin-bottom: 0;
 }
+/*---------------------
+  User regisration
+-----------------------*/
+
+/* Select the form element */
+form {
+	/* styles for the form element */
+	background-color: #f9f9f9;
+	padding: 20px;
+	border: 1px solid #ccc;
+  }
+  
+  /* Select the h3 element inside the form */
+  form h3 {
+	/* styles for the h3 element */
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 10px;
+  }
+  
+  /* Select the input elements with class "box" */
+  form .box {
+	/* styles for the input elements with class "box" */
+	width: 60%;
+	height: 40px;
+	padding: 10px;
+	border: 1px solid #ccc;
+  }
+
 
 /*---------------------
   Testimonial
