@@ -39,6 +39,17 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+.title{
+    font-family:  "Rubik Scribble", system-ui;
+    font-size: 2.5rem;
+    color: #152784;
+    font-weight: 800;
+    /* background-color:#31395c; */
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
 h1,
 h2,
 h3,
@@ -161,7 +172,7 @@ ol {
 	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: 700;
-	background: #88C417;
+	background: #01061f;
 	border-radius: 2px;
 	letter-spacing: 1px;
 }
@@ -173,7 +184,7 @@ ol {
 	text-transform: uppercase;
 	display: inline-block;
 	padding: 14px 30px 12px;
-	background: #88C417;
+	background: #01061f;
 	border: none;
 	letter-spacing: 1px;
 	border-radius: 2px;
@@ -352,13 +363,13 @@ ol {
 
 .header__top__widget li i {
 	font-size: 18px;
-	color: #88C417;
+	color:#01061f;
 	margin-right: 8px;
 }
 
 .header__top__language {
-	background: #88C417;
-	padding: 11px 20px;
+	background: #01061f;
+	padding: 11px 15px;
 	float: right;
 	position: relative;
 	cursor: pointer;
@@ -440,7 +451,7 @@ ol {
 .header__menu ul li {
 	list-style: none;
 	display: inline-block;
-	margin-right: 65px;
+	margin-right: 55px;
 	position: relative;
 }
 
@@ -485,7 +496,7 @@ ol {
 	font-size: 14px;
 	color: #ffffff;
 	font-weight: 400;
-	padding: 10px 20px;
+	padding: 10px 15px;
 }
 
 .header__menu ul li .dropdown li a:after {
@@ -507,7 +518,7 @@ ol {
 	bottom: 0;
 	height: 2px;
 	width: 0%;
-	background: #88C417;
+	background:#01061f;
 	content: "";
 	opacity: 0;
 	-webkit-transition: all, 0.5s;
@@ -717,7 +728,7 @@ ol {
 }
 
 .loan__services__item__text h4 span {
-	color: #88C417;
+	color: #01061f;
 }
 
 .loan__services__item__text p {
@@ -741,7 +752,7 @@ ol {
 	bottom: 0;
 	height: 2px;
 	width: 100%;
-	background: #88C417;
+	background: #01061f;
 	content: "";
 }
 
@@ -857,7 +868,7 @@ form {
 .testimonial__item span {
 	display: block;
 	font-size: 15px;
-	color: #88C417;
+	color: #01061f;
 	margin-bottom: 25px;
 }
 
@@ -896,7 +907,7 @@ form {
 }
 
 .testimonial__slider.owl-carousel .owl-dots button.active {
-	background: #88C417;
+	background: #01061f;
 }
 
 .testimonial__slider.owl-carousel .owl-dots button:last-child {
@@ -969,7 +980,7 @@ form {
 	bottom: 0;
 	height: 2px;
 	width: 100%;
-	background: #88C417;
+	background: #01061f;
 	content: "";
 }
 
@@ -1038,7 +1049,7 @@ form {
 }
 
 .latest__blog__item:hover h5 a {
-	color: #88C417;
+	color: #01061f;
 	text-decoration: underline;
 }
 
@@ -1071,7 +1082,7 @@ form {
 }
 
 .latest__blog__author .latest__blog__author__text h6 {
-	color: #88C417;
+	color: #01061f;
 	font-size: 15px;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -1115,7 +1126,7 @@ form {
 .contact__widget__phone h2 {
 	font-size: 40px;
 	font-weight: 700;
-	color: #88C417;
+	color: #01061f;
 	margin-top: 10px;
 }
 
@@ -1155,7 +1166,7 @@ form {
 }
 
 .footer__widget.footer__widget--social li a:hover {
-	color: #88C417;
+	color: #01061f;
 }
 
 .footer__widget.footer__widget--address p {
@@ -1244,7 +1255,7 @@ form {
 }
 
 .footer__copyright__text a {
-	color: #88C417;
+	color: #01061f;
 }
 
 /*---------------------
@@ -1422,14 +1433,14 @@ form {
 	top: 5px;
 	height: 10px;
 	width: 10px;
-	background: #88C417;
+	background: #01061f;
 	content: "";
 	border-radius: 50%;
 }
 
 .history__item span {
 	font-size: 14px;
-	color: #88C417;
+	color: #01061f;
 }
 
 .history__item h4 {
@@ -1543,7 +1554,7 @@ form {
 
 .team__text .team__title span {
 	font-size: 15px;
-	color: #88C417;
+	color: #01061f;
 }
 
 .team__text p {
@@ -1583,7 +1594,7 @@ form {
 }
 
 .team__text .team__social a:hover {
-	color: #88C417;
+	color:#01061f;
 }
 
 /*---------------------
@@ -1637,7 +1648,7 @@ form {
 }
 
 .services__item__text h4 span {
-	color: #88C417;
+	color: #01061f;
 }
 
 .services__item__text p {
@@ -1660,7 +1671,7 @@ form {
 	bottom: 0;
 	height: 2px;
 	width: 100%;
-	background: #88C417;
+	background: #01061f;
 	content: "";
 	-webkit-transition: all, 0.3s;
 	-o-transition: all, 0.3s;
@@ -1721,7 +1732,7 @@ form {
 }
 
 .services__details__product__item h4 span {
-	color: #88C417;
+	color:#01061f;
 }
 
 .services__details__product__item p {
@@ -1784,7 +1795,7 @@ form {
 	content: "L";
 	font-size: 24px;
 	font-family: "ElegantIcons";
-	color: #88C417;
+	color: #01061f;
 	position: absolute;
 	left: 30px;
 	top: 14px;
@@ -1796,7 +1807,7 @@ form {
 	content: "L";
 	font-size: 24px;
 	font-family: "ElegantIcons";
-	color: #88C417;
+	color: #01061f;
 	position: absolute;
 	left: 30px;
 	top: 14px;
@@ -1833,14 +1844,14 @@ form {
 }
 
 .services__details__calculator__item .ui-slider .ui-slider-range {
-	background: #88C417;
+	background: #01061f;
 }
 
 .services__details__calculator__item .ui-slider .ui-slider-handle {
 	height: 16px;
 	width: 16px;
 	display: inline-block;
-	background: #88C417;
+	background: #01061f;
 	cursor: pointer;
 	border: 2px solid #fff;
 	border-radius: 50px;
@@ -1959,7 +1970,7 @@ form {
 }
 
 .blog__item__text ul li i {
-	color: #88C417;
+	color:#01061f;
 }
 
 .blog__item__text p {
@@ -1994,9 +2005,9 @@ form {
 }
 
 .blog__pagination a:hover {
-	background: #88C417;
+	background: #01061f;
 	color: #ffffff;
-	border-color: #88C417;
+	border-color: #01061f;
 }
 
 /*---------------------
@@ -2215,7 +2226,7 @@ form {
 	display: inline-block;
 	font-weight: 700;
 	color: #ffffff;
-	background: #88C417;
+	background: #01061f;
 	padding: 4px 18px 3px;
 	border-radius: 2px;
 	text-transform: uppercase;
@@ -2341,7 +2352,7 @@ form {
 }
 
 .blog__details__slider.owl-carousel .owl-nav button:hover {
-	background: #88C417;
+	background: #01061f;
 	color: #ffffff;
 }
 
@@ -2495,7 +2506,7 @@ form {
 
 .blog__details__comment__item__text span {
 	font-size: 13px;
-	color: #88C417;
+	color: #01061f;
 }
 
 .blog__details__comment__item__text h6 {
@@ -2523,8 +2534,8 @@ form {
 }
 
 .blog__details__comment__item__text a.reply {
-	background: #88C417;
-	border-color: #88C417;
+	background: #01061f;
+	border-color: #01061f;
 	color: #ffffff;
 }
 
@@ -2607,6 +2618,20 @@ form {
 .blog__details__comment__form form textarea::placeholder {
 	color: #707070;
 }
+
+/*---------------------- 
+  User Registration & Login 
+---------------------*/
+/* .register {
+
+	
+	background-color: #f9f9f9;
+	padding:40px;
+	margin: 40px;
+	width:100%;
+	max-width: 500px;
+	box-sizing: border-box;
+} */
 
 /*---------------------
   Contact
@@ -2745,7 +2770,7 @@ form {
 }
 
 .contact__address__item ul li i {
-	color: #88C417;
+	color: #01061f;
 	font-size: 18px;
 	position: absolute;
 	left: 0;
@@ -2929,11 +2954,11 @@ form {
 	}
 	.offcanvas__widget li i {
 		font-size: 18px;
-		color: #88C417;
+		color:#01061f;
 		margin-right: 8px;
 	}
 	.offcanvas__language {
-		background: #88C417;
+		background:#01061f;
 		padding: 11px 20px;
 		display: inline-block;
 		float: none;
@@ -3195,11 +3220,11 @@ form {
 	}
 	.offcanvas__widget li i {
 		font-size: 18px;
-		color: #88C417;
+		color: #01061f;
 		margin-right: 8px;
 	}
 	.offcanvas__language {
-		background: #88C417;
+		background: #01061f;
 		padding: 11px 20px;
 		display: inline-block;
 		float: none;

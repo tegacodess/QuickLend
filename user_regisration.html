@@ -10,7 +10,9 @@
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap" rel="stylesheet">
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
@@ -21,6 +23,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel = "stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -53,51 +56,20 @@
         <ul class="offcanvas__widget">
             <li><i class="fa fa-map-marker"></i> 96 Ernser Vista Suite 437, NY, US</li>
             <li><i class="fa fa-phone"></i> (123) 456-78-910</li>
-            <li><i class="fa fa-envelope"></i> Info@colorlib.com</li>
+          
         </ul>
-        <div class="offcanvas__language">
-            <img src="img/flag.png" alt="">
-            <span>English</span>
-            <i class="fa fa-angle-down"></i>
-            <ul>
-                <li><a href="#">English</a></li>
-                <li><a href="#">Bangla</a></li>
-            </ul>
-        </div>
+      
     </div>
     <!-- Offcanvas Menu End -->
 
     <!-- Header Section Begin -->
     <header class="header">
-        <div class="header__top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-9">
-                        <ul class="header__top__widget">
-                            <li><i class="fa fa-map-marker"></i> 96 Ernser Vista Suite 437, NY, US</li>
-                            <li><i class="fa fa-phone"></i> (123) 456-78-910</li>
-                            <li><i class="fa fa-envelope"></i> Info@colorlib.com</li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="header__top__language">
-                            <img src="img/flag.png" alt="">
-                            <span>English</span>
-                            <i class="fa fa-angle-down"></i>
-                            <ul>
-                                <li><a href="#">English</a></li>
-                                <li><a href="#">Bangla</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        <a href="./index.html"><p class="title">QuickLend</p></a>
                     </div>
                 </div>
                 <div class="col-lg-9">
@@ -115,7 +87,8 @@
                                         <li><a href="./blog-details.html">Blog Details</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="./contact.html">Contact</a></li>
+                                <li><a href="./login.html">Login</a></li>                                   
+                                 <li><a href="./contact.html">Contact</a></li>
                             </ul>
                         </nav>
                         <div class="header__search">
@@ -132,13 +105,16 @@
 
 
 
-<form action="" method="post">
-   <h3>Register Now.</h3>
-   <input type="text" name="name" required placeholder="enter your username" maxlength="20"  class="box"><br>
-   <input type="email" name="email" required placeholder="enter your email" maxlength="50"  class="box" oninput="this.value = this.value.replace(/\s/g, '')"><br>
-   <input type="password" name="pass" required placeholder="enter your password" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')"><br>
-   <input type="password" name="cpass" required placeholder="confirm your password" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')"><br>
-   <input type="submit" value="Register now" class="btn" name="submit">
+<form action="#" method="post" >
+    <h3>Register Now.</h3>
+    <div class="input-list" class="register">
+        <input type="text" name="name" required placeholder="Enter your username" maxlength="20"  class="box"><br>
+        <input type="email" name="email" required placeholder="Enter your email" maxlength="50"  class="box" oninput="this.value = this.value.replace(/\s/g, '')"><br>
+        <input type="password" name="pass" required placeholder="Enter your password" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')"><br>
+        <input type="password" name="cpass" required placeholder="Confirm password" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')"><br>
+    </div>
+   
+   <input type="submit" value="Register now" class="site-btn" name="submit">
    <p>Already have an account?</p>
    <a href="user_login.php" class="option-btn">Login Now.</a>
 </form>

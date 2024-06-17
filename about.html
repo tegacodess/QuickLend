@@ -11,7 +11,9 @@
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap" rel="stylesheet">
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
@@ -22,6 +24,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel = "stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -52,7 +55,13 @@
                         <li><a href="./blog-details.html">Blog Details</a></li>
                     </ul>
                 </li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="#">Get Started</a>
+                    <ul class="dropdown">
+                        <li> <a href="./user_regisration.html">Sign Up</a></li>
+                        <li> <a href="./login.html">Login</a></li>
+                    </ul>  
+                 </li>
+                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
@@ -75,35 +84,12 @@
 
     <!-- Header Section Begin -->
     <header class="header">
-        <div class="header__top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-9">
-                        <ul class="header__top__widget">
-                            <li><i class="fa fa-map-marker"></i> 96 Ernser Vista Suite 437, NY, US</li>
-                            <li><i class="fa fa-phone"></i> (123) 456-78-910</li>
-                            <li><i class="fa fa-envelope"></i> Info@colorlib.com</li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="header__top__language">
-                            <img src="img/flag.png" alt="">
-                            <span>English</span>
-                            <i class="fa fa-angle-down"></i>
-                            <ul>
-                                <li><a href="#">English</a></li>
-                                <li><a href="#">Bangla</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        <a href="./index.html"><p class="title">QuickLend</p></a>
                     </div>
                 </div>
                 <div class="col-lg-9">
@@ -164,7 +150,7 @@
                         <div class="about__img">
                             <img src="img/about/about.jpg" alt="">
                             <a href="https://www.youtube.com/watch?v=RpvAmG1NNN0"
-                                class="play-btn video-popup"><img src="img/about/video-play.png" alt=""></a>
+                                class="play-btn video-popup"><img src="img/about/video-play.svg" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-6 offset-lg-1">
