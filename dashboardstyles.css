@@ -1,0 +1,126 @@
+/* Styles for the header and logo */
+header {
+    padding: 10px 20px; /* Padding for spacing */
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  header .logo img {
+    max-width: 150px; /* Max width for the logo */
+    height: auto; /* Maintain aspect ratio */
+    font-weight: bold; /* Make the logo text bold */
+  }
+  
+  /* Styles for the hero section */
+  .hero {
+    padding: 60px 0; /* Add padding for spacing */
+    background-size: cover; /* Ensure background covers the section */
+    position: relative;
+  }
+  
+  .hero__text h2 {
+    color: white; /* White color for the h2 text */
+    font-weight: 90; /* Make the h2 text even bolder */
+    font-size: 400%;
+  }
+  
+  .hero__text p {
+    color: white; /* White color for the p text */
+  }
+  
+  .hero__text a.primary-btn {
+    background-color: green; /* Green color for 'Get Start' button */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block; /* Display as inline block */
+    margin-right: 10px; /* Margin to separate buttons */
+  }
+  
+  .hero__text a.howit-btn {
+    background-color: blue; /* Blue color for 'How It Work' button */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block; /* Display as inline block */
+  }
+  
+  /* Styles for the form container */
+  .hero__form {
+    background-color: white; /* White background for the form container */
+    padding: 20px; /* Padding for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    width: 90%;
+    height: 450px; /* Make the box square */
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .hero__form h3 {
+    text-align: center; /* Center align the h3 element */
+  }
+  
+  .hero__form .input-list {
+    display: flex; /* Display as flexbox */
+    justify-content: space-between; /* Space between items */
+    flex-wrap: wrap; /* Wrap items */
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 10px; /* Padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 0; /* Add margin to separate from the next element */
+  }
+  
+  .hero__form .input-list-item,
+  .hero__form .input-full-width {
+    width: 48%; /* Set width for form items */
+    margin-bottom: 0; /* Remove bottom margin */
+  }
+  
+  .hero__form .input-full-width {
+    width: 100%; /* Full width for this input */
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 10px; /* Padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 0; /* Add margin to separate from the next element */
+  }
+  
+  .hero__form .input-list.last {
+    display: flex; /* Display as flexbox */
+    justify-content: space-between; /* Space between items */
+  }
+  
+  .hero__form .site-btn {
+    background-color: green; /* Green background for the button */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor as pointer */
+    width: 100%; /* Full width button */
+    margin-top: 10px;
+  }
+  
+  /* General Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-image: url('img/hero-bg.jpg'); /* Add a background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 1200px; /* Max width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding for spacing */
+  }
+  
