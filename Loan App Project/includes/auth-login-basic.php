@@ -2,8 +2,9 @@
 session_start();
 include 'db_connect.php'; // Ensure this points to your database connection file
 
-$error = ''; // Initialize error variable
-$success = ''; // Initialize success variable
+// Initialize error and success variables
+$error = ''; 
+$success = ''; 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST['email-username'];
@@ -19,28 +20,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Check if user exists and verify password
     if ($user) {
-        // Here we directly compare the plain text password with the stored password
-        if ($password === $user['password']) {
+        if (password_verify($password, $user['password'])) {
             // Successful login
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['role'] = $user['role'];
-            $success = "Login successful!"; // Indicate successful login
-            echo $success;
+            $_SESSION['success'] = "Login successful!"; // Store success message in session
 
-            // Redirect based on user role
+            // Store redirect URL in session based on role
             if ($user['role'] === 'admin') {
-                header("Location: ../template/html/index.html");
+                $_SESSION['redirect_url'] = '../template/html/admin-dashboard.php'; // Admin dashboard
             } else {
-                header("Location: ../template/html/pages-account-settings-account.html"); // Adjust as needed
+                $_SESSION['redirect_url'] = 'index.html'; // User dashboard
             }
+
+            // Redirect back to the login page to show the success message
+            header("Location: ../template/html/auth-login-basic.php");
             exit();
         } else {
-            $error = "Incorrect password."; // Password mismatch
-            echo $error;
+            $_SESSION['error'] = "Incorrect password."; // Store error message in session
         }
     } else {
-        $error = "Username not found."; // User not found
-        echo $error;
+        $_SESSION['error'] = "Username not found."; // Store error message in session
     }
+
+    // Redirect back to the login page if there's an error
+    header("Location: ../template/html/auth-login-basic.php");
+    exit();
 }
 ?>
